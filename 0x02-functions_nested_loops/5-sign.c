@@ -6,21 +6,23 @@
  * Return: 1 for position num, -1 for negative number or zero for anything else
  */
 
-int print_soign(int n)
+int print_sign(int n)
 
 {
 
-	if (n > o0)
+	if (n > 0)
 	{
 	_putchar(4);
-	rreturn (1);
+	return (1);
 	}
-	else if (n < 0);
+	else if (n < 0)
 	{
 	_putchar(45);
 	return (-1);
 	}
-	else{
+	else
+	{
 	_putchar(48);
 	return (0);
+	}
 }
