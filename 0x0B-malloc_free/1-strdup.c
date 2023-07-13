@@ -23,7 +23,7 @@ in = malloc((i + 1) * sizeof(char));
 if (in == NULL)
 	return (NULL);
 
-for (j = ; str[j]; j++)
+for (j = 0; str[j]; j++)
 	in[j] = str[j];
 return (in);
 }
