@@ -10,6 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
+int cents, coins;
+
 if (argc != 2)
 {
 printf("Error\n");
