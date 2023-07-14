@@ -6,12 +6,19 @@
  * Return: pointer to allocted memory
  */
 
+
 void *malloc_checked(unsigned int b)
 {
-	void *i = malloc(b);
+	void *ptr = malloc(b);
 
-	if (i == NULL)
+	if (ptr == NULL)
+	{
+		char *error_message = "malloc failed\n";
+
+		write(STDERR_FILENO, error_message, strlen(error_message));
+
 		exit(98);
+	}
 
-	return (i)
+	return (ptr);
 }
