@@ -1,1 +1,1 @@
-This is my alx-low_level_programming project
+This is my 0x09-static_libraries alx project
