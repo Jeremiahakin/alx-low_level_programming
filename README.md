@@ -1,1 +1,1 @@
-This is my 0x09-static_libraries alx project
+ALX low-level proogramming language. C lnaguage projects.
