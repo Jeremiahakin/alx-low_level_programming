@@ -3,7 +3,7 @@
 /**
  * main - prints name then new line
  * @argc: argumrnt count
- * @arg: argument vector
+ * @argv: argument vector
  *
  * Return: 0
  */
@@ -14,8 +14,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n",argv[i]);
+		printf("%s\n", argv[i]);
 	}
-	
 	return (0);
 }
