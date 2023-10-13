@@ -1,3 +1,4 @@
+#include <stddef.h>
 #ifndef FUNCTIONS_POINTERS_H
 #define FUNCTIONS_POINTERS_H
 
