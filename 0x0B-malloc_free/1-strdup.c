@@ -4,7 +4,7 @@
 #include <string.h>
 
 
-/** 
+/**
  * _strdup - Duplicate a string in newly allocated memory
  * @str: The string to duplicate
  *
